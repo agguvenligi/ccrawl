@@ -1,0 +1,22 @@
+// bedirhan
+    private void applyRegularExpression(File aFile) throws IOException{
+        updateStatus("Crawling code started");        
+        
+        Pattern pattern = null;
+
+        try{
+            pattern = Pattern.compile(jTextField2.getText());
+        }
+        catch(PatternSyntaxException pse){
+            updateStatus("Regex syntax problem: " + pse.getMessage());
+        }
+
+        Matcher matcher = pattern.matcher(fromFile(aFile));
+        StringBuilder sb = new StringBuilder();
+        String line = System.getProperty("line.separator");
+        // Find all matches
+        while (matcher.find()) {
+            // Get the matching string
+            String match = matcher.group();
+            MatchResult matchResult = matcher.toMatchResult();
+            

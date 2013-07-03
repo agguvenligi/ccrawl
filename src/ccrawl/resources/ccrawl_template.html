@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>#title</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <style type="text/css">
+            body{
+                padding: 0px;
+                margin: 0px;
+                font-family: Tahoma;
+            }
+            div.title{
+                background-color: brown;
+                font-size: 140%;
+                margin: 10px 40px 0px 40px; 
+                padding: 10px 20px;
+            }        
+            span.author{
+                float: right;
+                text-align: right;
+                font-size: 60%;
+                color: white;
+            }
+            span.author a{
+                text-decoration: none;
+                color: lightgray;
+            }
+            span.author a:hover{
+                text-decoration: underline;
+                color: white;
+            }
+            
+            /*************DETAILS************/                       
+            div.details{                
+                background-color: darkorange;
+                font-size: 130%;
+                margin: 0px 40px;                 
+                padding: 10px 5px;
+            }
+            div.details div.label{
+                width: 220px;           
+                text-align: right;
+                float: left;
+                padding: 0px 5px 0px 0px;                
+            }
+            div.details div.value{
+                float: left;
+                color: white;
+            }            
+            span.finding{
+                background-color: red;
+                color: white;
+                padding: 3px;
+            }
+            
+            /*************MATCHES************/                       
+            div.file{
+                font-size: 110%;
+                background-color: activeborder;
+                margin: 0px 40px;   
+                padding: 5px 2px;
+            } 
+            div.matches{                
+                margin: 0px 40px;                 
+                padding: 10px 7px;
+                background-color: peachpuff;
+            }                
+            div.matches div.result{
+                font-size: 90%;
+                padding: 15px 0px 10px 10px;
+            }
+            div.matches div.result span.label{
+                
+            }
+            div.matches div.result span.value{
+                margin-right: 10px;
+                font-size: 100%;
+            }
+            div.matches div.result div.matchcontext{
+                font-size: 80%;
+                word-wrap: break-word;
+                background-color: khaki;
+                margin-top: 6px;
+                padding: 5px;
+                border-color: black;
+                border-width: 1px;
+                border-style: dashed;
+            }              
+        </style>
+    </head>
+    <body>
+        <div class="title">
+            #title
+            <span class="author"><a href="http://code.google.com/p/ccrawl">Ccrawl</a> - bedirhanurgun@gmail.com</span>
+            <div style="clear: both;"></div> 
+        </div>
+        <div class="details">                    
+            <div class="label">Crawled With:</div>
+            <div class="value">#crawlregex</div>
+            <div style="clear: both;padding:2px 0px;"></div> 
+            <div class="label">Filtered With:</div>
+            <div class="value">#filterregex</div>            
+            <div style="clear: both;padding:2px 0px;"></div> 
+            <div class="label">File Type</div>
+            <div class="value">#fileregex</div>            
+            <div style="clear: both;padding:2px 0px;"></div> 
+            <div class="label">Number Of Files:</div>
+            <div class="value">#nooffiles</div>            
+            <div style="clear: both;padding:2px 0px;"></div> 
+            <div class="label">Number Of Matches:</div>
+            <div class="value">#noofmatches</div>            
+            <div style="clear: both;"></div> 
+        </div>
+            #content
+            <!--
+            <div class="file">Matched File: <i>#file</i></div>
+            <div class="result">
+                <span class="label">Index:</span>
+                <span class="value">#index</span>
+                <span class="label">Line Number:</span>
+                <span class="value">#linenumber</span>
+                <span class="label">Match Index:</span>
+                <span class="value">#matchindex</span>                    
+                <div class="matchcontext">
+                    <span class="finding">asd</span>
+                </div>      
+            </div>
+            -->
+    </body>
+</html>

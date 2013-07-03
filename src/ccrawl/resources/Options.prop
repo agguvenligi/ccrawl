@@ -1,0 +1,6 @@
+#Thu Nov 08 16:51:34 GMT+01:00 2012
+linesBefore=1
+directory=.
+file=.+\\.(java|xml)
+encoding=UTF-8
+linesAfter=1

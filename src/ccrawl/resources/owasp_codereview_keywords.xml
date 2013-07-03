@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<owasp_codereview>
+    
+    <categories>
+        <category name="Java:IO_Streams">
+            <keyword value="FileInputStream" />
+            <keyword value="ObjectInputStream" />
+            <keyword value="FilterOutputStream" />
+            <keyword value="PipedInputStream" />
+            <keyword value="SequenceInputStream" />
+            <keyword value="StringBufferInputStream" />
+            <keyword value="BufferedReader" />
+            <keyword value="ByteArrayInputStream" />
+            <keyword value="CharArrayReader" />
+            <keyword value="File" />
+            <keyword value="StreamTokenizer" />
+            <keyword value="getResourceAsStream" />
+            <keyword value="FileReader" />
+            <keyword value="FileWriter" />
+            <keyword value="RandomAccessFile" />
+            <keyword value="FileWriter" />
+            <keyword value="mkdir" />
+            <keyword value="renameTo" />
+        </category>
+        
+        <category name="Java:Servlets">
+            <keyword value="getParameterNames" />
+            <keyword value="getParameterValues" />
+            <keyword value="getParameter" />
+            <keyword value="getParameterMap" />
+            <keyword value="getScheme" />
+            <keyword value="getProtocol" />
+            <keyword value="getContentType" />
+            <keyword value="getServerName" />
+            <keyword value="getRemoteAddr" />
+            <keyword value="getRemoteHost" />
+            <keyword value="getRealPath" />
+            <keyword value="getLocalName" />
+            <keyword value="getAttribute" />
+            <keyword value="getAttributeNames" />
+            <keyword value="getLocalAddr" />
+            <keyword value="getAuthType" />
+            <keyword value="getRemoteUser" />
+            <keyword value="getCookies" />
+            <keyword value="isSecure" />
+            <keyword value="HttpServletRequest" />
+            <keyword value="getQueryString" />
+            <keyword value="getHeaderNames" />
+            <keyword value="getHeaders" />
+            <keyword value="getPrincipal" />
+            <keyword value="getUserPrincipal" />
+            <keyword value="isUserInRole" />
+            <keyword value="getInputStream" />
+            <keyword value="getOutputStream" />
+            <keyword value="getWriter" />
+            <keyword value="addCookie" />
+            <keyword value="addHeader" />
+            <keyword value="setHeader" />
+            <keyword value="setAttribute" />
+            <keyword value="putValue" />
+            <keyword value="Cookie" />
+            <keyword value="getName" />
+            <keyword value="getPath" />
+            <keyword value="getDomain" />
+            <keyword value="getComment" />
+            <keyword value="getMethod" />
+            <keyword value="getPath" />
+            <keyword value="getReader" />
+            <keyword value="getRealPath" />
+            <keyword value="getRequestURI" />
+            <keyword value="getRequestURL" />
+            <keyword value="getServerName" />
+            <keyword value="getValue" />
+            <keyword value="getValueNames" />
+            <keyword value="getRequestedSessionId" />
+         
+        </category>
+        
+        <category name="Java:XSS">
+            <keyword value="ServletOutputStream" />
+            <keyword value="JspWriter" />
+            <keyword value="PrintWriter" />
+        </category>
+        
+        <category name="Java:Response_Splitting">
+            <keyword value="sendRedirect" />
+            <keyword value="addHeader" />
+            <keyword value="setHeader" />
+        </category>
+        
+        <category name="Java:Redirection">
+            <keyword value="sendRedirect" />
+            <keyword value="setStatus" />
+            <keyword value="setHeader" />
+        </category>
+        
+        <category name="Java:SQL_Database">
+            <keyword value="executeQuery" />
+            <keyword value="select" />
+            <keyword value="insert" />
+            <keyword value="update" />
+            <keyword value="delete" />
+            <keyword value="execute" />
+            <keyword value="executeStatement" />
+            <keyword value="createStatement" />
+            <keyword value="getString" />
+            <keyword value="getObject" />
+            <keyword value="java.sql.ResultSet" />
+            <keyword value="java.sql.Statement" />
+            <keyword value="java.sql.Connection" />
+            <keyword value="executeUpdate" />
+            <keyword value="executeQuery" />
+            <keyword value="addBatch" />
+            <keyword value="prepareStatement" />
+            <keyword value="prepareCall" />
+       </category>
+       
+       <category name="Java:SSL">
+            <keyword value="SSLContext" />
+            <keyword value="SSLSocketFactory" />
+            <keyword value="TrustManagerFactory" />
+            <keyword value="HttpsURLConnection" />
+            <keyword value="KeyManagerFactory" />
+            <keyword value="com.sun.net.ssl" />
+       </category>
+       
+       <category name="Java:Session_Management">
+            <keyword value="getSession" />
+            <keyword value="invalidate" />
+            <keyword value="getId" />
+       </category>
+       
+       <category name="Java:Legacy_Interaction">
+            <keyword value="java.lang.Runtime" />
+            <keyword value="exec" />
+            <keyword value="getRuntime" />
+            <keyword value="java.lang.Runtime.exec" />
+            <keyword value="java.lang.Runtime.getRuntime" />
+       </category>
+       
+       <category name="Java:Logging">
+            <keyword value="java.io.PrintStream.write" />
+            <keyword value="log4j" />
+            <keyword value="jLo" />
+            <keyword value="Lumberjack" />
+            <keyword value="MonoLog" />
+            <keyword value="qflog" />
+            <keyword value="just4log" />
+            <keyword value="log4Ant" />
+            <keyword value="JDLabAgent" />
+       </category>
+       
+       <category name="Java:Architectural_Analysis">
+            <keyword value="XMLHTTP" />
+            <keyword value="window.createRequest" /> 
+            <keyword value="org.apache.struts" />
+            <keyword value="org.springframework" />
+            <keyword value="import javax.faces" />
+            <keyword value="import org.hibernate" />
+            <keyword value="org.exolab.castor" />
+            <keyword value="javax.xml" />
+            <keyword value="JMS" />
+       </category>
+       
+       <category name="Java:Generic_Keywords">
+            <keyword value="Hack" />
+            <keyword value="Bypass" />
+            <keyword value="Steal" />
+            <keyword value="Stolen" />
+            <keyword value="Broke" />
+            <keyword value="Trick" />
+            <keyword value="FIXME" />
+            <keyword value="ToDo" />
+            <keyword value="Password" />
+            <keyword value="Backdoor" />            
+       </category>
+       
+       <category name="Java:Web_2.0">
+            <keyword value="document.write" />
+            <keyword value="eval" />
+            <keyword value="document.cookie" />
+            <keyword value="window.location" />
+            <keyword value="document.URL" />
+       </category>
+       
+       <category name="dotNET:HTTP_Request">
+            <keyword value="request.accepttypes" />
+            <keyword value="request.browser" />
+            <keyword value="request.files" />
+            <keyword value="request.headers" />
+            <keyword value="request.httpmethod" />
+            <keyword value="request.item" />
+            <keyword value="request.querystring" />
+            <keyword value="request.form" />
+            <keyword value="request.cookies" />
+            <keyword value="request.certificate" />
+            <keyword value="request.rawurl" />
+            <keyword value="request.servervariables" />
+            <keyword value="request.url" />
+            <keyword value="request.urlreferrer" />
+            <keyword value="request.useragent" />
+            <keyword value="request.userlanguages" />
+            <keyword value="request.IsSecureConnection" />
+            <keyword value="request.TotalBytes" />
+            <keyword value="request.BinaryRead" />
+            <keyword value="InputStream" />
+            <keyword value="HiddenField.Value" />
+            <keyword value="TextBox.Text" />
+            <keyword value="recordSet" />
+       </category>
+       
+       
+       <category name="dotNET:HTML_Output">
+            <keyword value="response.write" />
+            <keyword value="&lt;%" />
+            <keyword value="HttpUtility" />
+            <keyword value="HtmlEncode" />
+            <keyword value="UrlEncode" />
+            <keyword value="innerText" />
+            <keyword value="innerHTML" />
+       </category>
+       
+       <category name="dotNET:SQL_Database">
+            <keyword value="exec sp_executesql" />
+            <keyword value="execute sp_executesql" />
+            <keyword value="select from" />
+            <keyword value="insert" />
+            <keyword value="update" />
+            <keyword value="delete from where" />
+            <keyword value="delete" />
+            <keyword value="exec sp_" />
+            <keyword value="execute sp_" />
+            <keyword value="exec xp_" />
+            <keyword value="execute sp_" />
+            <keyword value="exec @" />
+            <keyword value="execute @" />
+            <keyword value="executestatement" />
+            <keyword value="executeSQL" />
+            <keyword value="setfilter" />
+            <keyword value="executeQuery" />
+            <keyword value="GetQueryResultInXML" />
+            <keyword value="adodb" />
+            <keyword value="sqloledb" />
+            <keyword value="sql server" />
+            <keyword value="driver" />
+            <keyword value="Server.CreateObject" />
+            <keyword value=".Provider" />
+            <keyword value=".Open" />
+            <keyword value="ADODB.recordset" />
+            <keyword value="New OleDbConnection" />
+            <keyword value="ExecuteReader" />
+            <keyword value="DataSource" />
+            <keyword value="SqlCommand" />
+            <keyword value="Microsoft.Jet" />
+            <keyword value="SqlDataReader" />
+            <keyword value="ExecuteReader" />
+            <keyword value="GetString" />
+            <keyword value="SqlDataAdapter" />
+            <keyword value="CommandType" />
+            <keyword value="StoredProcedure" />
+            <keyword value="System.Data.sql" />
+            
+       </category>
+       
+       <category name="dotNet:Cookies">
+            <keyword value="System.Net.Cookie" />
+            <keyword value="HTTPOnly" />
+            <keyword value="document.cookie" />
+       </category>
+       
+      <category name="dotNet:HTML_Tags">
+            <keyword value="HtmlEncode" />
+            <keyword value="URLEncode" />
+            <keyword value="&lt;applet&gt;" />
+            <keyword value="&lt;frameset&gt;" />
+            <keyword value="&lt;embed&gt;" />
+            <keyword value="&lt;frame&gt;" />
+            <keyword value="&lt;html&gt;" />
+            <keyword value="&lt;iframe&gt;" />
+            <keyword value="&lt;img&gt;" />
+            <keyword value="&lt;style&gt;" />
+            <keyword value="&lt;layer&gt;" />
+            <keyword value="&lt;ilayer&gt;" />
+            <keyword value="&lt;meta&gt;" />
+            <keyword value="&lt;object&gt;" />
+            <keyword value="&lt;body&gt;" />
+            <keyword value="&lt;frame security" />
+            <keyword value="&lt;iframe security" />
+     </category>
+     
+     <category name="dotNET:WEB.Config">
+            <keyword value="requestEncoding" />
+            <keyword value="responseEncoding" />
+            <keyword value="trace" />
+            <keyword value="authorization" />
+            <keyword value="compilation" />
+            <keyword value="CustomErrors" />
+            <keyword value="httpCookies" />
+            <keyword value="httpHandlers" />
+            <keyword value="httpRuntime" />
+            <keyword value="sessionState" />
+            <keyword value="maxRequestLength" />
+            <keyword value="debug" />
+            <keyword value="forms protection" />
+            <keyword value="appSettings" />
+            <keyword value="ConfigurationSettings" />
+            <keyword value="connectionStrings" />
+            <keyword value="authentication mode" />
+            <keyword value="allow" />
+            <keyword value="deny" />
+            <keyword value="credentials" />
+            <keyword value="identity impersonate" />
+            <keyword value="timeout" />
+            <keyword value="remote" />
+       </category>
+       
+        <category name="dotNET:global.asax">
+            <keyword value="Application_OnAuthenticateRequest" />
+            <keyword value="Application_OnAuthorizeRequest" />
+            <keyword value="Session_OnStart" />
+            <keyword value="Session_OnEnd" />
+        </category>
+        
+        <category name="dotNET:Machine.config">
+            <keyword value="validateRequest" />
+            <keyword value="enableViewState" />
+            <keyword value="enableViewStateMac" />
+        </category>
+        
+        <category name="dotNET:Threads">
+            <keyword value="Thread" />
+            <keyword value="Dispose" />
+        </category>
+        
+        <category name="dotNET:Class_Design">
+            <keyword value="Sealed" />
+        </category>
+        
+         <category name="dotNET:Reflection_Serialization">
+            <keyword value="Serializable" />
+            <keyword value="AllowPartiallyTrustedCallersAttribute" />
+            <keyword value="GetObjectData" />
+            <keyword value="StrongNameIdentityPermission" />
+            <keyword value="StrongNameIdentity" />
+            <keyword value="System.Reflection" />
+        </category>
+        
+        <category name="dotNET:Exceptions_Errors">
+            <keyword value="catch{" />
+            <keyword value="Finally" />
+            <keyword value="trace enabled" />
+            <keyword value="customErrors mode" />
+        </category>
+        
+        <category name="dotNET:Cryptography">
+            <keyword value="RNGCryptoServiceProvider" />
+            <keyword value="SHA" />
+            <keyword value="MD5" />
+            <keyword value="base64" />
+            <keyword value="xor" />
+            <keyword value="DES" />
+            <keyword value="RC2" />
+            <keyword value="System.Random" />
+            <keyword value="Random" />
+            <keyword value="System.Security.Cryptography" />
+            
+        </category>
+        
+        <category name="dotNET:Storage">
+            <keyword value="SecureString" />
+            <keyword value="ProtectedMemory" />
+        </category>
+        
+         <category name="dotNET:Authorization_Assert_Revert">
+            <keyword value=".RequestMinimum" />
+            <keyword value=".RequestOptional" />
+            <keyword value="Assert" />
+            <keyword value="Debug.Assert" />
+            <keyword value="CodeAccessPermission" />
+            <keyword value="ReflectionPermission.MemberAccess" />
+            <keyword value="SecurityPermission.ControlAppDomain" />
+            <keyword value="SecurityPermission.UnmanagedCode" />
+            <keyword value="SecurityPermission.SkipVerification" />
+            <keyword value="SecurityPermission.ControlEvidence" />
+            <keyword value="SecurityPermission.SerializationFormatter" />
+            <keyword value="SecurityPermission.ControlPrincipal" />
+            <keyword value="SecurityPermission.ControlDomainPolicy" />
+            <keyword value="SecurityPermission.ControlPolicy" />
+        </category>
+        
+         <category name="dotNET:Legacy_Methods">
+            <keyword value="printf" />
+            <keyword value="strcpy" />
+         </category>
+        
+        
+        <category name="dotNET:Logging">
+            <keyword value="log4net" />
+            <keyword value="Console.WriteLine" />
+            <keyword value="System.Diagnostics.Debug" />
+            <keyword value="System.Diagnostics.Trace" />
+        </category>
+        
+       <category name="Classical_ASP:Inputs">
+            <keyword value="Request" />
+            <keyword value="Request.QueryString" />
+            <keyword value="Request.Form" />
+            <keyword value="Request.ServerVariables" />
+            <keyword value="Query_String" />
+            <keyword value="hidden" />
+            <keyword value="include" />
+       </category>
+       
+       <category name="Classical_ASP:Outputs">
+            <keyword value="Response.Write" />
+            <keyword value="Response.BinaryWrite" />
+            <keyword value="&lt;%" />
+       </category>
+       
+       <category name="Classical_ASP:Cookies">
+            <keyword value="cookies" />
+       </category>
+       
+       <category name="Classical_ASP:Error_Handling">
+            <keyword value="err." />
+            <keyword value="Server.GetLastError" />
+            <keyword value="On Error Resume Next" />
+            <keyword value="On Error GoTo 0" />
+       </category>
+       
+       <category name="Classical_ASP:Information_in_URL">
+            <keyword value="location.href" />
+            <keyword value="location.replace" />
+            <keyword value='method="GET"' />
+       </category>
+
+       <category name="Classical_ASP:Database">
+            <keyword value="select from" />
+            <keyword value="update" />
+            <keyword value="insert into" />
+            <keyword value="delete from where" />
+            <keyword value="exec" />
+            <keyword value="execute" />
+            <keyword value=".execute" />
+            <keyword value=".open" />
+            <keyword value="ADODB." />
+            <keyword value="commandtype" />
+            <keyword value="ICommand" />
+            <keyword value="IRowSet" />
+       </category>
+       
+       <category name="Classical_ASP:Session">
+            <keyword value="session.timeout" />
+            <keyword value="session.abandon" />
+            <keyword value="session.removeall" />
+       </category>
+       
+       <category name="Classical_ASP:DOS_Prevention">
+            <keyword value="server.ScriptTimeout" />
+            <keyword value="IsClientConnected" />
+       </category>
+       
+       <category name="Classical_ASP:Logging">
+           <keyword value="WriteEntry" />
+       </category>
+       
+       <category name="Classical_ASP:Redirection">
+            <keyword value="Response.AddHeader" />
+            <keyword value="Response.AppendHeader" />
+            <keyword value="Response.Redirect" />
+            <keyword value="Response.Status" />
+            <keyword value="Response.StatusCode" />
+            <keyword value="Server.Transfer" />
+            <keyword value="Server.Execute" />
+       </category>
+       
+       <category name="JavaScript_AJAX">
+            <keyword value="eval(" />
+            <keyword value="document.cookie" />
+            <keyword value="document.referrer" />
+            <keyword value="document.attachEvent" />
+            <keyword value="document.body" />
+            <keyword value="document.body.innerHtml" />
+            <keyword value="document.body.innerText" />
+            <keyword value="document.close" />
+            <keyword value="document.create" />
+            <keyword value="document.createElement" />
+            <keyword value="document.execCommand" />
+            <keyword value="document.forms[0].action" />
+            <keyword value="document.location" />
+            <keyword value="document.open" />
+            <keyword value="document.URL" />
+            <keyword value="document.URLUnencoded" />
+            <keyword value="document.write" />
+            <keyword value="document.writeln" />
+            <keyword value="location.hash" />
+            <keyword value="location.href" />
+            <keyword value="location.search" />
+            <keyword value="window.alert" />
+            <keyword value="window.attachEvent" />
+            <keyword value="window.createRequest" />
+            <keyword value="window.execScript" />
+            <keyword value="window.location" />
+            <keyword value="window.open" />
+            <keyword value="window.navigate" />
+            <keyword value="window.setInterval" />
+            <keyword value="window.setTimeout" />
+            <keyword value="XMLHTTP" />
+            
+       </category>
+       
+	   <category name="Android:Privacy_Violation">
+			<keyword value="Log\." />
+	   </category>
+	   
+	   <category name="Android:SQL_Injection">
+			<keyword value="rawQuery(" />
+			<keyword value="query\(" />
+	   </category>
+	   
+	   <category name="Android:Missing_BroadcastReceiver_Permission">
+			<keyword value="registerReceiver(" />
+			<keyword value="sendBroadcast\(" />
+	   </category>
+
+	   <category name="Android:Suspicious_SDCard_Operations">
+			<keyword value="android\.permission\.WRITE_EXTERNAL_STORAGE" />
+			<keyword value="android\.permission\.READ_EXTERNAL_STORAGE" />
+	   </category>
+
+	   <category name="Android:Suspicious_Location_Operations">
+			<keyword value="android\.permission\.ACCESS_COARSE_LOCATION" />
+			<keyword value="android\.permission\.ACCESS_FINE_LOCATION" />
+			<keyword value="requestLocationUpdates\(" />
+			<keyword value="getLastKnownLocation\(" />			
+	   </category>	   
+	   
+	   <category name="Android:Suspicious_SMS_Operations">
+			<keyword value="android\.permission\.SEND_SMS" />
+			<keyword value="android\.permission\.WRITE_SMS" />
+			<keyword value="sendTextMessage\(" />	
+			<keyword value="content\:\/\/sms\/inbox" />			
+	   </category>	  
+	   
+	   <category name="Android:Custom_SSL_Verification">
+			<keyword value="SSLSocketFactory\.ALLOW_ALL_HOSTNAME_VERIFIER" />	
+			<keyword value="extends SSLSocketFactory" />	
+			<keyword value="checkServerTrusted" />	
+			<keyword value="checkClientTrusted" />	
+                        <keyword value="setHostnameVerifier" />	                        
+                        <keyword value="AllowAllHostnameVerifier" />
+	   </category>
+	   
+	   <category name="Android:Information_Disclosure">
+			<keyword value="setData" />	
+			<keyword value="putExtra" />	
+			<keyword value="getData" />	
+			<keyword value="getExtras" />	
+	   </category>
+	   
+    </categories>
+
+</owasp_codereview>
