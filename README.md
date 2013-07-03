@@ -13,6 +13,7 @@ However, most of them lack features that Ccrawl has;
     Searching for language specific keywords from OWASP Code Review Guide
     Dangerous if not properly used Android APIs for analysing Android based native applications - new
 
-At bare minimum run: java -jar ccrawl.jar
+At bare minimum run: java -jar ccrawl.jar. Current jar version can be found under store directory
 
 [![ScreenShot](https://raw.github.com/agguvenligi/ccrawl/master/content/youtube_video.PNG)](http://www.youtube.com/watch?v=u0o0Q3lJe6c)
+
