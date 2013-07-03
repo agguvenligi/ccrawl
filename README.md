@@ -14,3 +14,5 @@ However, most of them lack features that Ccrawl has;
     Dangerous if not properly used Android APIs for analysing Android based native applications - new
 
 At bare minimum run: java -jar ccrawl.jar
+
+[![ScreenShot](https://raw.github.com/agguvenligi/ccrawl/master/content/youtube_video.PNG)](http://www.youtube.com/watch?v=u0o0Q3lJe6c)
