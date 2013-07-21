@@ -114,32 +114,32 @@
             <keyword value="addBatch" />
             <keyword value="prepareStatement" />
             <keyword value="prepareCall" />
-       </category>
+        </category>
        
-       <category name="Java:SSL">
+        <category name="Java:SSL">
             <keyword value="SSLContext" />
             <keyword value="SSLSocketFactory" />
             <keyword value="TrustManagerFactory" />
             <keyword value="HttpsURLConnection" />
             <keyword value="KeyManagerFactory" />
             <keyword value="com.sun.net.ssl" />
-       </category>
+        </category>
        
-       <category name="Java:Session_Management">
+        <category name="Java:Session_Management">
             <keyword value="getSession" />
             <keyword value="invalidate" />
             <keyword value="getId" />
-       </category>
+        </category>
        
-       <category name="Java:Legacy_Interaction">
+        <category name="Java:Legacy_Interaction">
             <keyword value="java.lang.Runtime" />
             <keyword value="exec" />
             <keyword value="getRuntime" />
             <keyword value="java.lang.Runtime.exec" />
             <keyword value="java.lang.Runtime.getRuntime" />
-       </category>
+        </category>
        
-       <category name="Java:Logging">
+        <category name="Java:Logging">
             <keyword value="java.io.PrintStream.write" />
             <keyword value="log4j" />
             <keyword value="jLo" />
@@ -149,9 +149,9 @@
             <keyword value="just4log" />
             <keyword value="log4Ant" />
             <keyword value="JDLabAgent" />
-       </category>
+        </category>
        
-       <category name="Java:Architectural_Analysis">
+        <category name="Java:Architectural_Analysis">
             <keyword value="XMLHTTP" />
             <keyword value="window.createRequest" /> 
             <keyword value="org.apache.struts" />
@@ -161,9 +161,9 @@
             <keyword value="org.exolab.castor" />
             <keyword value="javax.xml" />
             <keyword value="JMS" />
-       </category>
+        </category>
        
-       <category name="Java:Generic_Keywords">
+        <category name="Java:Generic_Keywords">
             <keyword value="Hack" />
             <keyword value="Bypass" />
             <keyword value="Steal" />
@@ -174,17 +174,17 @@
             <keyword value="ToDo" />
             <keyword value="Password" />
             <keyword value="Backdoor" />            
-       </category>
+        </category>
        
-       <category name="Java:Web_2.0">
+        <category name="Java:Web_2.0">
             <keyword value="document.write" />
             <keyword value="eval" />
             <keyword value="document.cookie" />
             <keyword value="window.location" />
             <keyword value="document.URL" />
-       </category>
+        </category>
        
-       <category name="dotNET:HTTP_Request">
+        <category name="dotNET:HTTP_Request">
             <keyword value="request.accepttypes" />
             <keyword value="request.browser" />
             <keyword value="request.files" />
@@ -208,10 +208,10 @@
             <keyword value="HiddenField.Value" />
             <keyword value="TextBox.Text" />
             <keyword value="recordSet" />
-       </category>
+        </category>
        
        
-       <category name="dotNET:HTML_Output">
+        <category name="dotNET:HTML_Output">
             <keyword value="response.write" />
             <keyword value="&lt;%" />
             <keyword value="HttpUtility" />
@@ -219,9 +219,9 @@
             <keyword value="UrlEncode" />
             <keyword value="innerText" />
             <keyword value="innerHTML" />
-       </category>
+        </category>
        
-       <category name="dotNET:SQL_Database">
+        <category name="dotNET:SQL_Database">
             <keyword value="exec sp_executesql" />
             <keyword value="execute sp_executesql" />
             <keyword value="select from" />
@@ -261,15 +261,15 @@
             <keyword value="StoredProcedure" />
             <keyword value="System.Data.sql" />
             
-       </category>
+        </category>
        
-       <category name="dotNet:Cookies">
+        <category name="dotNet:Cookies">
             <keyword value="System.Net.Cookie" />
             <keyword value="HTTPOnly" />
             <keyword value="document.cookie" />
-       </category>
+        </category>
        
-      <category name="dotNet:HTML_Tags">
+        <category name="dotNet:HTML_Tags">
             <keyword value="HtmlEncode" />
             <keyword value="URLEncode" />
             <keyword value="&lt;applet&gt;" />
@@ -287,9 +287,9 @@
             <keyword value="&lt;body&gt;" />
             <keyword value="&lt;frame security" />
             <keyword value="&lt;iframe security" />
-     </category>
+        </category>
      
-     <category name="dotNET:WEB.Config">
+        <category name="dotNET:WEB.Config">
             <keyword value="requestEncoding" />
             <keyword value="responseEncoding" />
             <keyword value="trace" />
@@ -313,7 +313,7 @@
             <keyword value="identity impersonate" />
             <keyword value="timeout" />
             <keyword value="remote" />
-       </category>
+        </category>
        
         <category name="dotNET:global.asax">
             <keyword value="Application_OnAuthenticateRequest" />
@@ -337,7 +337,7 @@
             <keyword value="Sealed" />
         </category>
         
-         <category name="dotNET:Reflection_Serialization">
+        <category name="dotNET:Reflection_Serialization">
             <keyword value="Serializable" />
             <keyword value="AllowPartiallyTrustedCallersAttribute" />
             <keyword value="GetObjectData" />
@@ -372,7 +372,7 @@
             <keyword value="ProtectedMemory" />
         </category>
         
-         <category name="dotNET:Authorization_Assert_Revert">
+        <category name="dotNET:Authorization_Assert_Revert">
             <keyword value=".RequestMinimum" />
             <keyword value=".RequestOptional" />
             <keyword value="Assert" />
@@ -389,10 +389,10 @@
             <keyword value="SecurityPermission.ControlPolicy" />
         </category>
         
-         <category name="dotNET:Legacy_Methods">
+        <category name="dotNET:Legacy_Methods">
             <keyword value="printf" />
             <keyword value="strcpy" />
-         </category>
+        </category>
         
         
         <category name="dotNET:Logging">
@@ -402,7 +402,7 @@
             <keyword value="System.Diagnostics.Trace" />
         </category>
         
-       <category name="Classical_ASP:Inputs">
+        <category name="Classical_ASP:Inputs">
             <keyword value="Request" />
             <keyword value="Request.QueryString" />
             <keyword value="Request.Form" />
@@ -410,32 +410,32 @@
             <keyword value="Query_String" />
             <keyword value="hidden" />
             <keyword value="include" />
-       </category>
+        </category>
        
-       <category name="Classical_ASP:Outputs">
+        <category name="Classical_ASP:Outputs">
             <keyword value="Response.Write" />
             <keyword value="Response.BinaryWrite" />
             <keyword value="&lt;%" />
-       </category>
+        </category>
        
-       <category name="Classical_ASP:Cookies">
+        <category name="Classical_ASP:Cookies">
             <keyword value="cookies" />
-       </category>
+        </category>
        
-       <category name="Classical_ASP:Error_Handling">
+        <category name="Classical_ASP:Error_Handling">
             <keyword value="err." />
             <keyword value="Server.GetLastError" />
             <keyword value="On Error Resume Next" />
             <keyword value="On Error GoTo 0" />
-       </category>
+        </category>
        
-       <category name="Classical_ASP:Information_in_URL">
+        <category name="Classical_ASP:Information_in_URL">
             <keyword value="location.href" />
             <keyword value="location.replace" />
             <keyword value='method="GET"' />
-       </category>
+        </category>
 
-       <category name="Classical_ASP:Database">
+        <category name="Classical_ASP:Database">
             <keyword value="select from" />
             <keyword value="update" />
             <keyword value="insert into" />
@@ -448,24 +448,24 @@
             <keyword value="commandtype" />
             <keyword value="ICommand" />
             <keyword value="IRowSet" />
-       </category>
+        </category>
        
-       <category name="Classical_ASP:Session">
+        <category name="Classical_ASP:Session">
             <keyword value="session.timeout" />
             <keyword value="session.abandon" />
             <keyword value="session.removeall" />
-       </category>
+        </category>
        
-       <category name="Classical_ASP:DOS_Prevention">
+        <category name="Classical_ASP:DOS_Prevention">
             <keyword value="server.ScriptTimeout" />
             <keyword value="IsClientConnected" />
-       </category>
+        </category>
        
-       <category name="Classical_ASP:Logging">
-           <keyword value="WriteEntry" />
-       </category>
+        <category name="Classical_ASP:Logging">
+            <keyword value="WriteEntry" />
+        </category>
        
-       <category name="Classical_ASP:Redirection">
+        <category name="Classical_ASP:Redirection">
             <keyword value="Response.AddHeader" />
             <keyword value="Response.AppendHeader" />
             <keyword value="Response.Redirect" />
@@ -473,9 +473,9 @@
             <keyword value="Response.StatusCode" />
             <keyword value="Server.Transfer" />
             <keyword value="Server.Execute" />
-       </category>
+        </category>
        
-       <category name="JavaScript_AJAX">
+        <category name="JavaScript_AJAX">
             <keyword value="eval(" />
             <keyword value="document.cookie" />
             <keyword value="document.referrer" />
@@ -508,57 +508,99 @@
             <keyword value="window.setTimeout" />
             <keyword value="XMLHTTP" />
             
-       </category>
+        </category>
        
-	   <category name="Android:Privacy_Violation">
-			<keyword value="Log\." />
-	   </category>
+        <category name="Android:Privacy_Violation">
+            <keyword value="Log\." />
+        </category>
 	   
-	   <category name="Android:SQL_Injection">
-			<keyword value="rawQuery(" />
-			<keyword value="query\(" />
-	   </category>
+        <category name="Android:SQL_Injection">
+            <keyword value="rawQuery" />
+            <keyword value="query" />
+        </category>
 	   
-	   <category name="Android:Missing_BroadcastReceiver_Permission">
-			<keyword value="registerReceiver(" />
-			<keyword value="sendBroadcast\(" />
-	   </category>
+        <category name="Android:Missing_BroadcastReceiver_Permission">
+            <keyword value="registerReceiver" />
+            <keyword value="sendBroadcast" />
+            <keyword value="sendOrderedBroadcast" />
+        </category>
 
-	   <category name="Android:Suspicious_SDCard_Operations">
-			<keyword value="android\.permission\.WRITE_EXTERNAL_STORAGE" />
-			<keyword value="android\.permission\.READ_EXTERNAL_STORAGE" />
-	   </category>
+        <category name="Android:Suspicious_SDCard_Operations">
+            <keyword value="android\.permission\.WRITE_EXTERNAL_STORAGE" />
+            <keyword value="android\.permission\.READ_EXTERNAL_STORAGE" />
+            <keyword value="getExternalStorageDirectory" />
+        </category>
 
-	   <category name="Android:Suspicious_Location_Operations">
-			<keyword value="android\.permission\.ACCESS_COARSE_LOCATION" />
-			<keyword value="android\.permission\.ACCESS_FINE_LOCATION" />
-			<keyword value="requestLocationUpdates\(" />
-			<keyword value="getLastKnownLocation\(" />			
-	   </category>	   
+        <category name="Android:Suspicious_Location_Operations">
+            <keyword value="android\.permission\.ACCESS_COARSE_LOCATION" />
+            <keyword value="android\.permission\.ACCESS_FINE_LOCATION" />
+            <keyword value="requestLocationUpdates" />
+            <keyword value="getLastKnownLocation" />			
+        </category>	   
 	   
-	   <category name="Android:Suspicious_SMS_Operations">
-			<keyword value="android\.permission\.SEND_SMS" />
-			<keyword value="android\.permission\.WRITE_SMS" />
-			<keyword value="sendTextMessage\(" />	
-			<keyword value="content\:\/\/sms\/inbox" />			
-	   </category>	  
+        <category name="Android:Suspicious_SMS_Operations">
+            <keyword value="android\.permission\.SEND_SMS" />
+            <keyword value="android\.permission\.WRITE_SMS" />
+            <keyword value="sendTextMessage\(" />	
+            <keyword value="content\:\/\/sms\/inbox" />			
+        </category>	  
 	   
-	   <category name="Android:Custom_SSL_Verification">
-			<keyword value="SSLSocketFactory\.ALLOW_ALL_HOSTNAME_VERIFIER" />	
-			<keyword value="extends SSLSocketFactory" />	
-			<keyword value="checkServerTrusted" />	
-			<keyword value="checkClientTrusted" />	
-                        <keyword value="setHostnameVerifier" />	                        
-                        <keyword value="AllowAllHostnameVerifier" />
-	   </category>
+        <category name="Android:Custom_SSL_Verification">
+            <keyword value="SSLSocketFactory\.ALLOW_ALL_HOSTNAME_VERIFIER" />	
+            <keyword value="extends SSLSocketFactory" />	
+            <keyword value="checkServerTrusted" />	
+            <keyword value="checkClientTrusted" />	
+            <keyword value="setHostnameVerifier" />	                        
+            <keyword value="AllowAllHostnameVerifier" />
+        </category>
 	   
-	   <category name="Android:Information_Disclosure">
-			<keyword value="setData" />	
-			<keyword value="putExtra" />	
-			<keyword value="getData" />	
-			<keyword value="getExtras" />	
-	   </category>
+        <category name="Android:Information_Disclosure">
+            <keyword value="setData" />	
+            <keyword value="putExtra" />	
+            <keyword value="getData" />	
+            <keyword value="getExtras" />	
+        </category>
+           
+        <category name="Android:XSS">
+            <keyword value="setJavaScriptEnabled"/>
+            <keyword value="addJavaScriptInterface"/>
+        </category>
+           
+        <category name="Android:Sensitive_Operations">
+            <keyword value="getCallState" />
+            <keyword value="getCellLocation" />
+            <keyword value="getDeviceId" />
+            <keyword value="getLine1Number" />
+            <keyword value="getSimSerialNumber" />
+            <keyword value="Intent\.ACTION_CALL" />
+            <keyword value="SmsManager" />
+            <keyword value="ContactsContract" />
+            <keyword value="LocationManager" />
+        </category>
 	   
+        <category name="Android:Code_Injection">
+            <keyword value="DexClassLoader"/>
+        </category>   
+           
+        <category name="iOS:SQL_Injection">
+            <keyword value="sqlite3_prepare_v2" />
+        </category>   
+           
+        <category name="iOS:Privacy_Violation">
+            <keyword value="NSLog" />
+        </category>      
+           
+        <category name="iOS:Information_Disclosure">
+            <keyword value="NSUserDefaults" />	
+            <keyword value="writeToFile" />
+            <keyword value="dictionaryWithContentsOfFile" />
+        </category>  
+           
+        <category name="iOS:Custom_SSL_Verification">
+            <keyword value="canAuthenticateAgainstProtectionSpace" />	
+            <keyword value="NSURLAuthenticationMethodServerTrust" />	
+            <keyword value="didReceiveAuthenticationChallenge" />	
+        </category>           
     </categories>
 
 </owasp_codereview>
