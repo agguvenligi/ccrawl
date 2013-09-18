@@ -594,6 +594,7 @@
             <keyword value="NSUserDefaults" />	
             <keyword value="writeToFile" />
             <keyword value="dictionaryWithContentsOfFile" />
+            <keyword value="CFBundleURLSchemes"/>
         </category>  
         
         <category name="iOS:Insecure_Cryptography">
