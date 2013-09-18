@@ -506,8 +506,7 @@
             <keyword value="window.navigate" />
             <keyword value="window.setInterval" />
             <keyword value="window.setTimeout" />
-            <keyword value="XMLHTTP" />
-            
+            <keyword value="XMLHTTP" />            
         </category>
        
         <category name="Android:Privacy_Violation">
@@ -588,6 +587,7 @@
            
         <category name="iOS:Privacy_Violation">
             <keyword value="NSLog" />
+            <keyword value="UIPasteboard" />
         </category>      
            
         <category name="iOS:Information_Disclosure">
@@ -595,6 +595,10 @@
             <keyword value="writeToFile" />
             <keyword value="dictionaryWithContentsOfFile" />
         </category>  
+        
+        <category name="iOS:Insecure_Cryptography">
+            <keyword value="kSecAttrAccessibleAlways|kSecAttrAccessibleAlwaysThisDeviceOnly|kSecAttrAccessibleAfterFirstUnlock|kSecAttrAccessibleAfterFirstUnlockThisDeviceOnly" />	            
+        </category> 
            
         <category name="iOS:Custom_SSL_Verification">
             <keyword value="canAuthenticateAgainstProtectionSpace" />	
