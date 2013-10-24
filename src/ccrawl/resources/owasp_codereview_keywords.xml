@@ -522,6 +522,7 @@
             <keyword value="registerReceiver" />
             <keyword value="sendBroadcast" />
             <keyword value="sendOrderedBroadcast" />
+            <keyword value="&lt;receiver" />
         </category>
 
         <category name="Android:Suspicious_SDCard_Operations">
